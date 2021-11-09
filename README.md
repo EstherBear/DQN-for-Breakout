@@ -12,8 +12,7 @@ pip install -r requirements.freezed
 You can modify the parameters according to your own needs and refer to `config.py` for details. 
 
 ## References
+On the basis of https://gitee.com/goluke/dqn-breakout#dqn-for-breakout, we mainly modify `main.py`, `utils_drl.py`, `utils_model.py`, `run.sh` and add `config.py`, `run_dueling.sh`, `run_pretrain.sh`.
 
-https://gitee.com/goluke/dqn-breakout#dqn-for-breakout
 
-https://github.com/wetliu/dqn_pytorch 
 

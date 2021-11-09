@@ -1,6 +1,6 @@
 # DQN for Breakout
 
-This project is the implementation for Natural and Dueling DQN for Breaout.
+This project is the implementation for Natural and Dueling DQN for Breakout.
 
 ## Usage
 

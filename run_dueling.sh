@@ -1,10 +1,10 @@
-savePrefix='./models/natural'
+savePrefix='./models/DuelingDQN'
 epsStart=1
-rlmodel='DQN'
+rlmodel='DuelingDQN'
 restore='None'
 
 if [ -z ${CUDA_VISIBLE_DEVICES} ]; then
-    export CUDA_VISIBLE_DEVICES="0,1,2,3"
+    export CUDA_VISIBLE_DEVICES=1
 fi
 
 python main.py \

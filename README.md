@@ -1,9 +1,19 @@
-DQN for Breakout
-================
+# DQN for Breakout
 
-This project is modified from https://github.com/wetliu/dqn_pytorch based on my
-opinionated styles of coding.
+This project is the implementation for Natural and Dueling DQN for Breaout.
 
-And here are some pre-trained weights that you can play with:
-- [model_weights_a](https://github.com/lukeluocn/dqn-breakout/releases/download/v0.0.0/model_weights_a)
-- [model_weights_b](https://github.com/lukeluocn/dqn-breakout/releases/download/v0.0.0/model_weights_b)
+## Usage
+
+```shell
+pip install -r requirements.freezed
+./run_dueling.sh
+```
+
+You can modify the parameters according to your own needs and refer to `config.py` for details. 
+
+## References
+
+https://gitee.com/goluke/dqn-breakout#dqn-for-breakout
+
+https://github.com/wetliu/dqn_pytorch 
+
